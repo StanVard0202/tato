@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "camisola caneca saco pins calcao";
+    grid-template-columns: auto auto auto auto auto;
+    /*gap: 25px 25px;*/
+}
+
+.produto{
+    width: min-content;
+    outline: 3px solid black;
+}
+
+.camisola{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.caneca{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.caneca{
+    grid-column: 3;
+    grid-row: 1;
+}
